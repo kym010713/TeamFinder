@@ -9,7 +9,7 @@ public class HomeController {
 
     @GetMapping("/hello")
     public String hello(Model model) {
-        model.addAttribute("name", "영민");
+        model.addAttribute("name", "영");
         return "hello"; // templates/hello.html 로 이동
     }
 }
