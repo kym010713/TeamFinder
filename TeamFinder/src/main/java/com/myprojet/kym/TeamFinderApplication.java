@@ -1,13 +1,13 @@
-package com.example.demo;
+package com.myprojet.kym;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProjectApplication {
+public class TeamFinderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProjectApplication.class, args);
+		SpringApplication.run(TeamFinderApplication.class, args);
 	}
 
 }
