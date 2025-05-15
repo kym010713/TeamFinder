@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HomeController {
 
-    @GetMapping("/hello")
+    @GetMapping("/")
     public String hello(Model model) {
         model.addAttribute("name", "영");
-        return "hello"; // templates/hello.html 로 이동
+        return "index"; // templates/hello.html 로 이동
     }
 }
